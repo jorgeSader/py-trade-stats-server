@@ -3,15 +3,9 @@ from flask_bcrypt import Bcrypt
 from flask_session import Session
 from config import ApplicationConfig
 from models import db, User
-# FIXME: remove
-# FIXME: remove
-# FIXME: remove
 
-#  auth video https://www.youtube.com/watch?v=sBw0O5YTT4Q&t=390s
+from server.brokers.oanda.oanda import oanda
 
-# FIXME: remove 
-# FIXME: remove
-# FIXME: remove
 app = Flask(__name__)
 app.config.from_object(ApplicationConfig)
 

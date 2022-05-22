@@ -2,6 +2,12 @@ flask
 flask-session
 flask-sqlalchemy
 flask-bcrypt
+pandas
 python-dotenv
+PyYAML
+flask-cors
 redis
+ujson
 v20
+
+--index-url https://test.pypi.org/simple/ tpqoa
